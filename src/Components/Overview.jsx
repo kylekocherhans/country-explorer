@@ -6,7 +6,7 @@ const Overview = () => {
     return (
         <div className="stack">
             <h1>{currentDisplay.name.official}</h1>
-            {/* <h1>{currentDisplay.name.common}</h1> */}
+            <h3>"{currentDisplay.name.common}"</h3>
 
             <table className="overview-table">
                 <tbody>
